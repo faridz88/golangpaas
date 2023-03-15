@@ -10,7 +10,7 @@ func main() {
 	// Hello world, the web server
 
 	helloHandler := func(w http.ResponseWriter, req *http.Request) {
-		io.WriteString(w, "Testing Golang APP!\n")
+		io.WriteString(w, "Testing Golang APP! 2\n")
 	}
 
 	http.HandleFunc("/", helloHandler)
